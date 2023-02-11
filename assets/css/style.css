@@ -310,6 +310,7 @@ main {
 .sidebar.active { max-height: 405px; }
 
 .sidebar-info {
+	border-radius: 1rem;
   position: relative;
   display: flex;
   justify-content: flex-start;
