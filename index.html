@@ -1,143 +1,270 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEK REISIN YERI</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            display: flex;
-			background-color: #241e1d
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Sinan Tarık Sakarya - CV
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
         }
-
-        .sol-bolum, .sag-bolum {
-            flex: 1;
-            padding: 20px;
-        }
-
-        .sol-bolum {
-            background-color: #241e1d
-        }
-
-        .sag-bolum {
-            background-color: #241e1d
-        }
-        .sag-bolum h2.restaurant-baslik {
-            color:  #c48f1a; /* Başlık rengi */
-            font-size: 50px; /* Başlık font büyüklüğü */
-            font-family: 'Pacifico', cursive; /* Pacifico fontunu belirtin */
-            text-align: center; 
-            /* Diğer stil özelliklerini ekleyebilirsiniz */
-        }
-
-        .sag-bolum .custom-h2 {
-            color:  #c48f1a;
-            font-size: 40px;
-            font-family: 'Arial', sans-serif; /* Arial fontunu belirtin */
-            text-align: center;
-            /* Diğer stil özelliklerini ekleyebilirsiniz */
-            
-        }
-        .sag-bolum h1 {
-            color:  #000000;
-            background-color: #ffffff;
-            font-size: 50px;
-            font-family: 'Arial', sans-serif; /* Arial fontunu belirtin */
-            text-align: center;
-            /* Diğer stil özelliklerini ekleyebilirsiniz */
-            
-        }
-        .sag-bolum p {
-            color:  #c48f1a;
-            font-size: 20px;
-            font-family: 'Arial', sans-serif; /* Arial fontunu belirtin */
-            /* Diğer stil özelliklerini ekleyebilirsiniz */
-            
-        }
-        .araliq {
-            margin-right: 400px; /* Sağa boşluk ekleyin */
-        }
-    </style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
-</head>
-<body>
-
-	<div>
-        <img src="./assets/image/s1.JPG" alt="Resim"  height="300" width="300">
-		<p> <img src="./assets/image/s6.JPG" alt="Resim"  width="300" height="300"> </p>
-		<p> <img src="./assets/image/s3.JPG" alt="Resim"  width="300" height="300"></p>
-		<p> <img src="./assets/image/s2.JPG" alt="Resim"  width="300" height="300"></p>
-
+  </style>
+ </head>
+ <body class="bg-gray-900 text-gray-200">
+  <header class="bg-gray-800 text-white p-6">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-3xl font-bold">
+     Sinan Tarık Sakarya
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#about">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#experience">
+        Experience
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#education">
+        Education
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#skills">
+        Skills
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#contact">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto my-8 p-6 bg-gray-800 shadow-lg rounded-lg">
+   <section class="mb-8" id="about">
+    <h2 class="text-2xl font-bold mb-4">
+     About Me
+    </h2>
+    <div class="flex items-center">
+     <img alt="Portrait of Sinan Tarık Sakarya" class="w-32 h-32 rounded-full mr-6" height="150" src="https://storage.googleapis.com/a1aa/image/39ca12RFRUazHJlRUTGdOvkmL3vFn5pPX7JTQ8nKZCQ9iA8E.jpg" width="150"/>
+     <p class="text-lg">
+      Hello! I am Sinan Tarık Sakarya, a passionate developer with a strong background in web development and a keen interest in creating efficient and scalable web applications. I am always eager to learn new technologies and improve my skills.
+     </p>
     </div>
-    <div class="sag-bolum">
-        
-        <!-- <h2 class="restaurant-baslik">Restaurant</h2>
-        <h2 class="custom-h2">Menu</h2> -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./assets/image/s4.PNG" alt="Resim"  height="400" width="800">
-        
-        <h1>ÇORBALAR</h1>
-        <p>Balık Çorbası&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Pancar Çorbası&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Mercimek Çorbası<span class="araliq"></span>......</p>
-
-        <h1>SALATALAR</h1>
-        <p>Mevsim Salata&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Çoban Salata&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Akdeniz Salata&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Hellim Salata&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-
-        <h1>BALIK ÇEŞİTLERİ</h1>
-        <p>Mezgit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Levrek&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-        <p>Somon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-        <p>Çupra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-        <p>İstavrit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-        <p>Hamsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-        <p>İskopit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-        <p>Tirsi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-        <p>Çinekop&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span class="araliq"></span>......</p>
-
-        <h1>KIZARTMA, BUĞLAMA, IZGARA, ŞİŞ</h1>
-
-        <h1>TATLI ÇEŞİTLERİ</h1>
-        <p>Burma Kadayıf&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>İrmik Helvası&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <h1>APERATİFLER</h1>
-
-        <p>Köfte Tabağı&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Patates Kızartması<span class="araliq"></span>......</p>
-        <p>Karışık Kızartma Tabağı<span class="araliq"></span>......</p>
-
-        <h1>İÇECEKLER</h1>
-        <p>Şişe Kola&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Şişe Fanta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Ufuk Gazoz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Sprite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Ice Tea&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Şalgam Suyu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Soda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Churchill&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Ayran&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Su&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>Çay&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>1.5L Su&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>1L Kola&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
-        <p>1L Fanta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="araliq"></span>......</p>
+   </section>
+   <section class="mb-8" id="experience">
+    <h2 class="text-2xl font-bold mb-4">
+     Experience
+    </h2>
+    <div class="space-y-4">
+     <div>
+      <h3 class="text-xl font-semibold">
+       Senior Developer at XYZ Company
+      </h3>
+      <p class="text-gray-400">
+       Jan 2020 - Present
+      </p>
+      <p>
+       Leading a team of developers to build and maintain web applications. Responsible for code reviews, mentoring junior developers, and ensuring the quality of the codebase.
+      </p>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       Frontend Developer at ABC Corp
+      </h3>
+      <p class="text-gray-400">
+       Jun 2017 - Dec 2019
+      </p>
+      <p>
+       Worked on various frontend projects using React and Vue.js. Collaborated with designers to create user-friendly interfaces and improve the overall user experience.
+      </p>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       Junior Developer at DEF Inc.
+      </h3>
+      <p class="text-gray-400">
+       Jan 2015 - May 2017
+      </p>
+      <p>
+       Assisted in the development of web applications using HTML, CSS, and JavaScript. Gained valuable experience in working with backend technologies and databases.
+      </p>
+     </div>
     </div>
-	<div>
-        <img src="./assets/image/s5.JPG" alt="Resim"  height="400" width="400">
-		<p> <img src="./assets/image/s1.JPG" alt="Resim"  width="400" height="400"> </p>
-		<p> <img src="./assets/image/s3.JPG" alt="Resim"  width="400" height="400"></p>
-		<p> <img src="./assets/image/s2.JPG" alt="Resim"  width="400" height="400"></p>
-	</div>
-
-</body>
+   </section>
+   <section class="mb-8" id="education">
+    <h2 class="text-2xl font-bold mb-4">
+     Education
+    </h2>
+    <div class="space-y-4">
+     <div>
+      <h3 class="text-xl font-semibold">
+       Bachelor of Science in Computer Science
+      </h3>
+      <p class="text-gray-400">
+       University of Technology, 2011 - 2015
+      </p>
+      <p>
+       Graduated with honors. Focused on software development, algorithms, and data structures. Completed a capstone project on web application security.
+      </p>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       High School Diploma
+      </h3>
+      <p class="text-gray-400">
+       High School of Science, 2007 - 2011
+      </p>
+      <p>
+       Excelled in mathematics and computer science courses. Participated in various coding competitions and hackathons.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-8" id="skills">
+    <h2 class="text-2xl font-bold mb-4">
+     Skills
+    </h2>
+    <div class="grid grid-cols-2 gap-4">
+     <div>
+      <h3 class="text-xl font-semibold">
+       Programming Languages
+      </h3>
+      <ul class="list-disc list-inside">
+       <li>
+        JavaScript
+       </li>
+       <li>
+        Python
+       </li>
+       <li>
+        Java
+       </li>
+       <li>
+        PHP
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       Frameworks &amp; Libraries
+      </h3>
+      <ul class="list-disc list-inside">
+       <li>
+        React
+       </li>
+       <li>
+        Vue.js
+       </li>
+       <li>
+        Node.js
+       </li>
+       <li>
+        Laravel
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       Tools &amp; Platforms
+      </h3>
+      <ul class="list-disc list-inside">
+       <li>
+        Git
+       </li>
+       <li>
+        Docker
+       </li>
+       <li>
+        Jenkins
+       </li>
+       <li>
+        AWS
+       </li>
+      </ul>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold">
+       Databases
+      </h3>
+      <ul class="list-disc list-inside">
+       <li>
+        MySQL
+       </li>
+       <li>
+        PostgreSQL
+       </li>
+       <li>
+        MongoDB
+       </li>
+       <li>
+        SQLite
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <section class="mb-8" id="contact">
+    <h2 class="text-2xl font-bold mb-4">
+     Contact
+    </h2>
+    <form class="space-y-4">
+     <div>
+      <label class="block text-lg font-medium" for="name">
+       Name
+      </label>
+      <input class="w-full p-2 border border-gray-600 rounded bg-gray-700 text-gray-200" id="name" name="name" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-lg font-medium" for="email">
+       Email
+      </label>
+      <input class="w-full p-2 border border-gray-600 rounded bg-gray-700 text-gray-200" id="email" name="email" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block text-lg font-medium" for="message">
+       Message
+      </label>
+      <textarea class="w-full p-2 border border-gray-600 rounded bg-gray-700 text-gray-200" id="message" name="message" required="" rows="4"></textarea>
+     </div>
+     <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" type="submit">
+      Send Message
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer class="bg-gray-800 text-white p-6">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 Sinan Tarık Sakarya. All rights reserved.
+    </p>
+    <div class="flex justify-center space-x-4 mt-4">
+     <a class="hover:text-gray-400" href="https://www.linkedin.com">
+      <i class="fab fa-linkedin">
+      </i>
+     </a>
+     <a class="hover:text-gray-400" href="https://www.github.com">
+      <i class="fab fa-github">
+      </i>
+     </a>
+     <a class="hover:text-gray-400" href="https://www.twitter.com">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
 </html>
-
-
-
